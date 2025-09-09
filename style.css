@@ -1,0 +1,100 @@
+/* HEADER */
+header {
+    background-color: lightsteelblue;
+    letter-spacing: 0.1cm;
+    padding: 25px;
+    font-variant: small-caps;
+    font-family: "Cascadia Code", cursive;
+    font-size: x-large;
+    background-image: url("flower.png");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+}
+
+header h1 {
+    margin-left: 90px;
+}
+
+/* MAIN IMAGE */
+img {
+    width: 100px;
+    height: auto;
+}
+
+
+footer {
+    background-color: lightsteelblue;
+    border: 3px dotted lightsteelblue;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+    margin-top: 40px;
+    font-family: "Cascadia Code", cursive;
+}
+
+
+section#osa1 {
+    display: inline-block;
+    border-left: 6px dotted powderblue;
+    border-right: 6px dotted powderblue;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Cascadia Code", cursive;
+}
+
+
+section#osa2 {
+    display: inline-block;
+    border-right: 6px dotted powderblue;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Cascadia Code", cursive;
+}
+
+
+#osa1 h2,
+#osa2 h2 {
+    background-color: lightsteelblue;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 60px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: powderblue;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    border: 2px solid lightslategrey;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+nav ul li a {
+    display: block;
+    color: lightslategrey;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "Cascadia Code", cursive;
+}
+
+nav ul li a:hover {
+    background-color: midnightblue;
+    color: white;
+    border-radius: 10px;
+}
